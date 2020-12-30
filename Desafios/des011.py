@@ -1,0 +1,6 @@
+comp = float(input('Digite o Comptrimento da parede em metros:'))
+alt = float(input('Digite a altura da parede em metros: '))
+rend = float(input('digite o rendimento da tinta em metros quadrados:'))
+print('Você possui uma area de {} m².'.format(comp*alt))
+print('Sabendo que o rendimento da tinta é de {}m² por litros.'.format(rend))
+print('Você necessitará de {} litros de tinta.'.format(((comp * alt) / rend)))

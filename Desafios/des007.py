@@ -1,0 +1,7 @@
+n1=float(input('Digite a 1º nota do Aluno:'))
+n2=float(input('Digite a 2º nota do Aluno:'))
+n3=float(input('Digite a 3º nota do Aluno:'))
+n4=float(input('Digite a 4º nota do Aluno:'))
+n5=float(input('Digite a 5º nota do Aluno:'))
+m=((n1+n2+n3+n4+n5)/5)
+print('A media do aluno foi: {:.2f}'.format(m))
