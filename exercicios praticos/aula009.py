@@ -1,0 +1,20 @@
+frase = 'Curso em Video Python'
+print(frase[3:13])
+print(frase[:14])
+print(frase[15:])
+print(len(frase))
+print(frase[:15:2])
+print(frase.count('o'))
+print(frase.title())
+print(frase.capitalize())
+print(frase.upper())
+print(frase.lower())
+print(frase.split())
+print(frase.strip())
+frase = (frase.split())
+print(frase)
+print(frase[0])
+print(frase[1])
+print(frase[0][1])
+
+
